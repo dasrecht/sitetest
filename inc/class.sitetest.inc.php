@@ -14,9 +14,9 @@
 class SiteTest {
 
   protected $conf       = NULL;
-  protected $interval   = NULL;
   protected $user_agent = NULL;
   protected $checks     = NULL;
+  public $interval      = NULL;
 
   public function __construct($aConf = NULL) {
     if($aConf === NULL) {

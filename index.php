@@ -24,8 +24,8 @@ if (file_exists(realpath($CONF['HTDOCS_PATH'].'conf/config.php'))) {
 	die('Configuration file not found!');
 }
 
-if(file_exists(realpath($CONF['HTDOCS_PATH'].'tpl/'.$CONF['TEMPLATE']))) {
-  include_once(realpath($CONF['HTDOCS_PATH'].'tpl/'.$CONF['TEMPLATE']));
+if(file_exists(realpath($CONF['HTDOCS_PATH'].'tpl/'.$CONF['TEMPLATE'].'/index.tpl.php'))) {
+  include_once(realpath($CONF['HTDOCS_PATH'].'tpl/'.$CONF['TEMPLATE'].'/index.tpl.php'));
 } else {
   die('Could not load Template!');
 }

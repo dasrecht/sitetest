@@ -17,7 +17,7 @@ $CONF['INTERVAL'] = '60';
 $CONF['USER_AGENT'] = 'SITETEST (ver.: 0.9.8 / http://projects.m83.ch/sitetest/';
 
 // Active Template
-$CONF['TEMPLATE'] = 'default.tpl.php';
+$CONF['TEMPLATE'] = 'default';
 
 
 // Configure Site Checks
